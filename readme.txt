@@ -19,3 +19,8 @@ git checkout      (用版本库的文件替换工作区，可以用于删除和�
 //远程库
 //创建SSH KEY： ssh-keygen -t rsa -C "youremail@example.com"
 //找到ssh文件夹： open ~/.ssh
+//GitHub的settings的SSH列表加入id_rsa.pub的内容
+//怎么将github中的repository关联到本地的：
+git remote add origin git@github.com:raottian/learngit.git
+git push -u origin master   (-u是将当前分支推送到远程master分支上，以后可以不加)
+//远程库克隆：在要克隆到的文件下输入git clone git@github.com:RogerMonkey/IJCAI_CUP_2017.git
